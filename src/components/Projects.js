@@ -6,10 +6,10 @@ const Projects = () => {
         display: "flex",
         flexWrap: "wrap",
         width: "750px",
-        margin: "auto"        
+        margin: "auto"
     }
     const dates = {
-        width: "100px"
+        width: "800px"
         
     }
 
@@ -23,8 +23,9 @@ const Projects = () => {
         <div style={projects}>                        
                     {score.map(x =>                    
                     <p style={dates}>
-                    {x.date}<br />번역됨: result3 파일의 문장 12466개 중 {x.subs}개(<a style={percent}>{Math.trunc(x.subs/12466*100)}%</a>) 남음: {12466-x.subs}개
-                    </p>
+                    {x.date}<br />번역됨: result3 파일의 문장 12466개 중 <br/>{x.subs}개(<a style={percent}>{Math.trunc(x.subs/12466*100)}%</a>) 남음: {12466-x.subs}개<br/>
+                    <img src={x.photo} alt=" "></img>
+                    </p>                    
                     )}
         </div>
         </div>
