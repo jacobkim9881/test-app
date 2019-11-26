@@ -60,9 +60,19 @@
         "subs": 12466         
     },    
     {
+        "file": "result2",
+        "total": "14614",
         "month": 11,
         "date" : 20,
         "subs": 3074,
+        "photo": "https://vignette.wikia.nocookie.net/pathfinderkingmaker/images/8/85/Kalikke.jpg/revision/latest/scale-to-width-down/332?cb=20190822124459"
+    },    
+    {
+        "file": "result2",
+        "total": "14614",
+        "month": 11,
+        "date" : 26,
+        "subs": 1570,
         "photo": "https://vignette.wikia.nocookie.net/pathfinderkingmaker/images/8/85/Kalikke.jpg/revision/latest/scale-to-width-down/332?cb=20190822124459"
     }
 ]
