@@ -5,6 +5,7 @@ import {
 
 export default function Leftbar() {
     const naviga = {
+        position: "absolute",
         display: "block",
         width: "12rem",
         float: "left",
@@ -19,8 +20,8 @@ export default function Leftbar() {
     }
 
     return (
-            <div style={naviga}>
-                <nav>
+            <React.Fragment>
+                <nav style={naviga}>
                     <ul>
                         <li style={list}>
                             <Link to='/'>Home</Link>
@@ -37,9 +38,12 @@ export default function Leftbar() {
                         <li>
                             <Link to='/donate'>Donate</Link>
                         </li>
+                        <li>
+                            <Link to='/workspace'>Work Space</Link>
+                        </li>
                     </ul>
                 </nav>
                 
-            </div>
+            </React.Fragment>
     )
 }

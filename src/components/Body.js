@@ -4,6 +4,7 @@ import Portfolio from './Portfolio'
 import Home from './Home'
 import Donate from './Donate'
 import Projects from './Projects'
+import WorkSpace from './WorkSpace'
 import {Switch,
              Route} from 'react-router-dom'
 
@@ -12,7 +13,7 @@ const Body = () => {
         textAlign: "center"
     }
     return (
-        <div style={main}>
+        <React.Fragment style={main}>
             <Switch>
                     <Route path='/about'>
                         <About />
@@ -25,12 +26,15 @@ const Body = () => {
                     </Route>
                     <Route path='/projects'>
                         <Projects />
+                    </Route>    
+                    <Route path='/workspace'>
+                        <WorkSpace />                    
                     </Route>
                     <Route path='/'>
                         <Home />
-                    </Route>    
+                    </Route>                        
                 </Switch>
-        </div>
+        </React.Fragment>
     )
 }
 

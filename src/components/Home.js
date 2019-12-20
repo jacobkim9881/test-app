@@ -2,9 +2,9 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div>
+        <React.Fragment>
             This is Home
-        </div>
+        </React.Fragment>
     )
 }
 

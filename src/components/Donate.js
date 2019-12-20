@@ -11,12 +11,12 @@ const Donate = () => {
     }
 
     return (
-        <div>
+        <React.Fragment>
             <br />
             <img style={myImg} src={me} alt="my photo"/>
             <br />
             <a href="https://www.paypal.me/jacobkim9881">Thank you for your donation!</a>            
-        </div>
+        </React.Fragment>
     )
 }
 
