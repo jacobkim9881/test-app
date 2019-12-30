@@ -1,6 +1,6 @@
 //Header.js
 import React from 'react';
-import {Consumer} from './index';
+import {Consumer} from '../index';
 import './App.css'
 
 const Header = props => (

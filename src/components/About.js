@@ -1,16 +1,11 @@
 import React from 'react'
+import { Main } from '../Css'
 
-const About = () => {
-    const about = {
-        display: "flex",
-        flexWrap: "wrap",
-        width: "1000px",
-        margin: "auto"
-    }
+const About = () => {    
     return (
-        <div style={about}>
+        <Main>
             This is About
-        </div>
+        </Main>
     )
 }
 

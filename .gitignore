@@ -11,6 +11,8 @@
 # production
 /build
 /built-lambda
+/test
+/lambda
 
 # misc
 .DS_Store

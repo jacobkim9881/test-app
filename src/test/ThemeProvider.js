@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Provider} from './index';
+import {Provider} from '../index';
 
 class ThemeProvider extends React.Component{
   constructor(){

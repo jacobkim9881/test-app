@@ -1,12 +1,9 @@
 import React from 'react'
+import {Main} from '../Css'
 //import score from './pathfinderCalendar.json'
 
 export default function Calendar({ score }) {
-    const projects = {        
-        display: "flex",
-        flexWrap: "wrap",
-        width: "750px",
-        margin: "auto"
+    const projects = {     
     }
     const dates = {
         width: "800px"        
@@ -16,7 +13,7 @@ export default function Calendar({ score }) {
         color: "red"
     }    
     return (
-        <React.Fragment>
+        <Main>
             <h2 style={projects}>Pathfinder : Kingmaker</h2>            
         <div style={projects}>                        
                     {score.map(x =>                    
@@ -29,6 +26,6 @@ export default function Calendar({ score }) {
                     </p>                    
                     )}
         </div>
-        </React.Fragment>
+        </Main>
     )
 }
